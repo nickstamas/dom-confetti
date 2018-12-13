@@ -51,7 +51,7 @@ function updateFetti(fetti, progress, decay) {
   const transform = `translate3d(${wobbleX}px, ${wobbleY}px, 0) rotate3d(1, 1, 1, ${tiltAngle}rad)`;
 
   fetti.element.style.transform = transform;
-  fetti.element.style.opacity = 1 - progress;
+  fetti.element.style.opacity = 1;
 
   /* eslint-enable */
 }
